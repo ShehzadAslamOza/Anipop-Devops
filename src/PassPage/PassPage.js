@@ -6,11 +6,11 @@ import CardWrapper from "./PassPageComponents/CardWrapper";
 export default function PassPage() {
   return (
     <div>
-      <section id="screen1">
+      <section id="pass-screen1">
         <CardWrapper />
         <Navbar />
       </section>
-      <section id="screen2"></section>
+      <section id="pass-screen2"></section>
     </div>
   );
 }

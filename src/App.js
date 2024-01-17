@@ -6,18 +6,20 @@ import AboutPage from "./AboutPage/AboutPage";
 import ContactPage from "./ContactPage/ContactPage";
 import PassPage from "./PassPage/PassPage";
 import CompPage from "./CompPage/CompPage";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/modules" element={<ModulePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/passes" element ={<PassPage />}/>
-          <Route path="/comp" element ={<CompPage />}/>
+          <Route path="/passes" element={<PassPage />} />
+          <Route path="/comp" element={<CompPage />} />
         </Routes>
       </Router>
     </div>

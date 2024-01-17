@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-#screen1 {
+#pass-screen1 {
   background-color: black;
+}
+#pass-screen2 {
+  background-color: yellow;
 }
