@@ -10,6 +10,7 @@ export default function PassPage() {
         <CardWrapper />
         <Navbar />
       </section>
+      <section id="screen2"></section>
     </div>
   );
 }

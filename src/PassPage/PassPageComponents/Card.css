@@ -1,12 +1,29 @@
 .card {
   text-align: center;
-  border-color: wheat;
-  border-style: solid;
-  height: 50%;
-  width: 90%;
+
+  margin: 1.5rem;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2em;
+  border-color: #5c469c;
+  border-width: 2px;
+  border-style: outset;
+}
+.emptyspace {
+  height: 30%;
+}
+.card:hover {
+  scale: 1.02;
+  box-shadow: 1em 1em 10em 0em #5c469c;
+  border-style: none;
 }
 .card_elem {
   padding: 0.5rem;
+}
+.card__image {
+  height: 15vw;
+  border-radius: 2em;
 }
 @import url("https://fonts.googleapis.com/css?family=Mukta:700");
 
@@ -35,7 +52,7 @@ button.card__btn .circle {
   margin: 0;
   width: 3rem;
   height: 6rem;
-  background: #282936;
+  background: black;
   border-radius: 1.625rem;
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
@@ -83,10 +100,12 @@ button.card__btn .button-text {
   text-align: center;
   text-transform: uppercase;
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  text-decoration: none;
 }
 
 button:hover .circle {
   width: 110%;
+  background: #5c469c;
 }
 
 button:hover .circle .icon.arrow {
