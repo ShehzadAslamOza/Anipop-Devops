@@ -1,5 +1,9 @@
 .card {
   text-align: center;
+  border-color: wheat;
+  border-style: solid;
+  height: 50%;
+  width: 90%;
 }
 .card_elem {
   padding: 0.5rem;
