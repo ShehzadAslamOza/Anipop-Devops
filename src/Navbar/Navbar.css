@@ -58,6 +58,7 @@ nav li a {
   color: white;
   text-transform: uppercase;
   transition: 0.1s;
+  text-decoration: none;
 }
 nav li a:hover {
   color: #f399f0;

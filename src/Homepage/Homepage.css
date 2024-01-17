@@ -8,10 +8,6 @@ body {
   background: black;
 }
 
-#screen1 p {
-  padding-top: 200px;
-  font-size: 30px;
-}
 section {
   height: 100vh;
 }
