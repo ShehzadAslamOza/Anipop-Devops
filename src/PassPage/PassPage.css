@@ -3,7 +3,16 @@ html {
 }
 #pass-screen1 {
   background-color: black;
+  background-image: url("media/pass-bg.jpg");
 }
 #pass-screen2 {
   background-color: yellow;
+  background-image: url("media/bg-pic.jpg");
+  height: max-content;
+  padding: 1em;
+}
+.BA-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
 }

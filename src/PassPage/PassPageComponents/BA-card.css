@@ -1,0 +1,25 @@
+.BA-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 30vw;
+
+  text-align: center;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+.BA-card:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  scale: 1.02;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.top {
+  padding-top: 1em;
+}
+.bot {
+  padding-bottom: 1em;
+}

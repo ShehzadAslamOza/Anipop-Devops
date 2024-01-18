@@ -8,7 +8,6 @@ export default function Card(props) {
       <h2 className="card__title card_elem">{props.title}</h2>
       <p className="card__description card_elem">{props.description}</p>
 
-      <div className="emptyspace"></div>
       <button className="card__btn card_elem">
         <span class="circle" aria-hidden="true">
           <span class="icon arrow"></span>
