@@ -21,5 +21,6 @@
   padding-top: 1em;
 }
 .bot {
-  padding-bottom: 1em;
+  text-decoration: none;
+  color: lightblue;
 }

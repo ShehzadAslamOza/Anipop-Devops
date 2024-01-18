@@ -8,7 +8,9 @@ export default function BAcard(props) {
       <h1 className="top">{props.name}</h1>
       <p class="title">{props.university}</p>
       <p>{props.location}</p>
-      <p className="bot">{props.contact}</p>
+      <a href={`tel:${props.contact}`} className="bot">
+        {props.contact}
+      </a>
     </div>
   );
 }

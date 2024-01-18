@@ -7,8 +7,9 @@ export default function Homepage() {
   return (
     <div>
       <section id="screen1">
-        <TopScreen />
         <Navbar />
+        <div className="buffer"></div>
+        <TopScreen />
       </section>
       <section id="screen2"></section>
       <section id="screen3"></section>

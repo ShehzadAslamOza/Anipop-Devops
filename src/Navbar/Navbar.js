@@ -11,7 +11,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const navHeight = window.innerHeight - 0.1 * window.innerHeight;
+      const navHeight = 0.1 * window.innerHeight;
       if (window.scrollY > navHeight) {
         setNavFixed(true);
       } else {
@@ -114,14 +114,10 @@ export default function Navbar() {
           <div className="nav-right">
             <ul className="nav-menu">
               <li className="nav-item page-link">
-                <Link to ="/passes">
-                  Get Passes
-                </Link>
+                <Link to="/passes">Get Passes</Link>
               </li>
               <li className="nav-item page-link">
-                <Link to ="/comp">
-                  Competition Sign ups
-                </Link>
+                <Link to="/comp">Competition Sign ups</Link>
               </li>
             </ul>
           </div>

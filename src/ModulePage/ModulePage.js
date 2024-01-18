@@ -6,8 +6,9 @@ export default function ModulePage() {
   return (
     <div>
       <section id="screen1">
-        <p>Module Page</p>
         <Navbar />
+        <div className="buffer"></div>
+        <p>Module Page</p>
       </section>
       <section id="screen2"></section>
       <section id="screen3"></section>

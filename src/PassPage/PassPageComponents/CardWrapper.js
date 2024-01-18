@@ -15,7 +15,7 @@ export default function CardWrapper() {
       />
       <Card
         title="Physical Passes"
-        description="Visit our brand ambassodors to get your passes now"
+        description="Get in touch with our brand ambassodors to get your passes now"
         action="Find a brand ambassodor"
         link="#pass-screen2"
         img={twlogo}

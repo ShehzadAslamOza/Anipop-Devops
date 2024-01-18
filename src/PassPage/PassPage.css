@@ -3,11 +3,11 @@ html {
 }
 #pass-screen1 {
   background-color: black;
-  background-image: url("media/pass-bg.jpg");
+  background-image: url("media/1082.jpg");
 }
 #pass-screen2 {
   background-color: yellow;
-  background-image: url("media/bg-pic.jpg");
+  background-image: url("media/1082.jpg");
   height: max-content;
   padding: 1em;
 }
@@ -15,4 +15,5 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
+  margin-top: 5%;
 }
