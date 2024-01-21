@@ -1,38 +1,34 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-:root{
-  background: black;
+.empty {
+  height: 5vh;
 }
 
 .about-section4 {
   font-size: 40px;
   text-align: center;
   padding: 50px 0; /* Adjust padding for spacing */
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #FF7F7F;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ff7f7f;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("media/anime-lights-audience-crowd-wallpaper-preview.jpg");
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
+    url("media/anime-lights-audience-crowd-wallpaper-preview.jpg");
   background-position: center;
   background-size: contain;
   position: relative;
-  animation: bounceIn 1s ease-in-out forwards;
-  transform-origin: center bottom;
 }
 
-:root{
+:root {
   --x: 45deg;
 }
 
-.button-container{
+.button-container {
   display: flex;
   flex-direction: row;
 }
-
-
-
 
 @keyframes bounceIn {
   from {
@@ -45,11 +41,3 @@ body {
     transform: scale(1);
   }
 }
-
-
-
-
-
-
-
-

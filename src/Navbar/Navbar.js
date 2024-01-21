@@ -124,19 +124,19 @@ export default function Navbar() {
                 {isModulesHovered && (
                   <div className="dropdown-content">
                     <li className="nav-item page-link">
-                      <Link to="#">Stage </Link>
+                      <Link to="/modules">Stage </Link>
                     </li>
                     <li className="nav-item page-link">
-                      <Link to="#">Art </Link>
+                      <Link to="/modules">Art </Link>
                     </li>
                     <li className="nav-item page-link">
-                      <Link to="#">Gaming </Link>
+                      <Link to="/modules">Gaming </Link>
                     </li>
                     <li className="nav-item page-link">
-                      <Link to="#">Auditorium </Link>
+                      <Link to="/modules">Auditorium </Link>
                     </li>
                     <li className="nav-item page-link">
-                      <Link to="#">VolleyBall </Link>
+                      <Link to="/modules">VolleyBall </Link>
                     </li>
                   </div>
                 )}

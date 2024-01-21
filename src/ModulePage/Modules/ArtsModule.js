@@ -1,8 +1,5 @@
 import React from 'react'
 import './ArtsModule.css'
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -10,9 +7,11 @@ import { Navigation } from 'swiper/modules';
 import ArtsPFP from './artsmedia/Arts-Module-pfp.png'
 import TAPFP from './artsmedia/Screenshot 2024-01-20 174723.png'
 import DAPFP from './artsmedia/Screenshot 2024-01-20 174959.png'
+import '../ModuleButtons/CompButton.css'
+import {Link} from 'react-router-dom'
 
 export default function ArtsModule() {
-    
+
     return (
         <div>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
@@ -67,13 +66,19 @@ export default function ArtsModule() {
                         </div>
                         <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
                             Welcome to OC Roulette, IBACON's lively digital art competition module!
-                            In OC Roulette, participants will be randomly assigned a theme, challenging them to craft an engaging original 
-                            character that perfectly captures the essence of their given theme. These characters will be judged against others, 
+                            In OC Roulette, participants will be randomly assigned a theme, challenging them to craft an engaging original
+                            character that perfectly captures the essence of their given theme. These characters will be judged against others,
                             and winners will be rewarded with various prizes!
+                            <br />If you think you have what it takes, sign up now by clicking the competition signups button below.
+                            <br />
+                            <br /><Link to="/comp" className="fbutton5 my-3">
+                                <i></i><i></i>
+                                <span>Competition-SignUps</span>
+                            </Link>
                         </div>
                     </div>
                 </div></SwiperSlide>
-                </Swiper>
+            </Swiper>
         </div>
     )
 }

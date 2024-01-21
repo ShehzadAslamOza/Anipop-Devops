@@ -1,24 +1,26 @@
 import React from 'react'
 import '../Modules/StageModule.css'
-import Zuhair from '../media/Zuhair.png'
-import Myrol from '../media/Myrol.png'
-import FFAnime from '../media/sddefault.jpg'
-import TierList from '../media/10276911621584771.jpg'
-import AnimeOp from '../media/maxresdefault.jpg'
+import Zuhair from './stagemedia/Zuhair.png'
+import Myrol from './stagemedia/Myrol.png'
+import FFAnime from './stagemedia/family-feud-pfp.jpg'
+import TierList from './stagemedia/tierlist-pfp.jpg'
+import AnimeOp from './stagemedia/opening-pfp.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import GamingFinale from '../media/generative-ai-neon-gamer-anime-fashion-boy-man-wearing-headphones-lost-his-music-abstract-background-that-evokes-feeling-different-genres-music-banner-music-concept_62.avif'
-import PerformancePFP from '../media/performance-pfp.avif'
-import GGV from '../media/geeks-vocals-pfp.jpg'
-import cosplayWalk from '../media/cosplay-walk-pfp.jpg'
+import GamingFinale from './stagemedia/gaming-pfp.avif'
+import PerformancePFP from './stagemedia/performance-pfp.avif'
+import GGV from './stagemedia/geeks-vocals-pfp.jpg'
+import cosplayWalk from './stagemedia/cosplay-walk-pfp.jpg'
+import {Link} from 'react-router-dom'
+import '../ModuleButtons/CompButton.css'
 
 
 export default function StageModule() {
     
   return (
-    <div>
+    <div className='container'>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
       <SwiperSlide><div className="about-section5" >
             <h1>Stage Module</h1>
@@ -26,7 +28,7 @@ export default function StageModule() {
               <div style={{ flex: '1', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                 <div style={{ marginRight: "10px" }}>
                   <img src={Myrol} alt="" style={{
-                    width: "45%", /* Adjust the width as needed */
+                    width: "48%", /* Adjust the width as needed */
                     height: "100%", /* Maintain aspect ratio */
                     margin: "0 auto", /* Center the container horizontally */
                     padding: "1.5rem",
@@ -47,7 +49,6 @@ export default function StageModule() {
                 Get ready for a non-stop thrill ride at our event's stage module! Our carefully curated lineup promises to keep
                 you entertained and engaged throughout the day.
                 <br /><span style={{ fontSize: '2rem', lineHeight: 1.5 }}>Here's a glimpse of what's in store:</span>
-                <br /><span style={{ fontSize: '4rem', lineHeight: 1.5 }}>ON SCNZ GUYZ!!!!!</span>
               </div>
             </div>
           </div></SwiperSlide>
@@ -159,7 +160,12 @@ export default function StageModule() {
             Geeks Got Talent brings together the most extraordinary talents of the day. From mind-blowing magic tricks to awe-inspiring 
             performances, be prepared to be amazed!
             <br/>Don't miss out on the chance to be part of the action. For those with hidden talents, our Geeks Got Talent competition awaits 
-            you! If you think you have what it takes, sign up now using the form link [insert form link].
+            you! If you think you have what it takes, sign up now by clicking the competition signups button below.
+            <br/>
+            <br/><Link to="/comp" className="fbutton5 my-3">
+                <i></i><i></i>
+                <span>Competition-SignUps</span>
+                </Link>
             </div>
           </div>
         </div></SwiperSlide>
@@ -174,7 +180,7 @@ export default function StageModule() {
               </div>
               <div style={{ flex: '1' }}>
                 <img src={cosplayWalk} alt="" style={{
-                  width: "31%", /* Adjust the width as needed */
+                  width: "33%", /* Adjust the width as needed */
                   height: "auto", /* Maintain aspect ratio */
                   margin: "0 auto", /* Center the container horizontally */
                   padding: "1.5rem"
@@ -182,7 +188,8 @@ export default function StageModule() {
               </div>
             </div>
           </div></SwiperSlide>
-        {/* </Slider> */}
+
+      
         </Swiper>
     </div>
   )
