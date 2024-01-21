@@ -10,17 +10,23 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   /* color: white; */
   color: #c0ca50; /* Hot Pink */
-  -webkit-text-stroke: 1px black;
+
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
     url("media/retro-anime-1grctabx31sxl8oo.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
-
-  animation: fadeIn 0.5s ease-in-out forwards;
 }
 
+@keyframes slideInLeft {
+  0% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 @keyframes scaleIn {
   from {
     transform: scale(0.4);
@@ -117,5 +123,15 @@ h1 {
 }
 
 .screen4 {
-  height: 100vh;
+  height: max-content;
+}
+.screen5 {
+  height: max-content;
+}
+.screen6 {
+  height: max-content;
+}
+.buffer {
+  height: 8vh;
+  background-color: black;
 }

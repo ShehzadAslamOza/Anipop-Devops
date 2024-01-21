@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: max-content;
 }
 #screen2 {
   background: #efc94d;

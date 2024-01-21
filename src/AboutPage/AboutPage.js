@@ -27,8 +27,8 @@ export default function AboutPage() {
                 src={IBACON}
                 alt=""
                 style={{
-                  width: "100vh" /* Adjust the width as needed */,
-                  height: "auto" /* Maintain aspect ratio */,
+                  width: "90%" /* Adjust the width as needed */,
+                  height: "100%" /* Maintain aspect ratio */,
                   margin: "0 auto" /* Center the container horizontally */,
                   padding: "1.5rem",
                 }}

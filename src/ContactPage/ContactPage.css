@@ -8,16 +8,13 @@ body {
   background: black;
 }
 
-section {
-  height: 100vh;
-}
-
 #contact-screen3 {
   background: #e1793d;
 }
 
 /* section 2 css */
 #contact-screen2 {
+  height: 100vh;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
@@ -38,7 +35,7 @@ section {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
+  max-width: 40vw;
   width: 100%;
   text-align: center;
 }

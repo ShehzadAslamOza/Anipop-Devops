@@ -10,6 +10,13 @@
   border-width: 2px;
   border-style: outset;
   background-color: rgba(0, 0, 0, 0.7);
+  height: min("50vh", "100vw");
+  width: 70vw;
+}
+.BA-title {
+  color: black;
+  text-align: center;
+  background-color: white;
 }
 .emptyspace {
   height: 30%;
@@ -23,7 +30,7 @@
   padding: 0.5rem;
 }
 .card__image {
-  height: 19vw;
+  height: 29vw;
   border-radius: 2em;
 }
 

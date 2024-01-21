@@ -74,3 +74,11 @@ nav li a:hover {
     font-size: 0.875em;
   }
 }
+.dropdown-content {
+  display: block;
+  transition: 0.1s;
+  padding: 2em;
+  border: 5px solid rgba(198, 54, 191, 1);
+  background: rgba(0, 0, 0, 1);
+  border-radius: 50px;
+}

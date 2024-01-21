@@ -13,6 +13,7 @@ export default function PassPage() {
         <CardWrapper />
       </section>
       <section id="pass-screen2">
+        <h1 className="BA-title">Our Brand Ambassadors</h1>
         <div className="BA-container">
           <BAcard
             name="Shaikh Jehanzeib Saeed"

@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.about-section5 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(205, 7, 149, 0.8), rgba(205, 7, 149, 0.8)), url("../media/stage-light-and-pink-glitter-lights-on-floor-abstract-background-photo.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+
+  .about-section6 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("../media/family-feud-background-1920-x-1080-pd8mkxukmmf5fsx0.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .about-section7 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("../media/ka1hdxbxxfe51.jpg");
+    background-position: center;
+    background-size: contain;
+    position: relative;
+  }
+
+  .about-section8 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(27, 27, 85, 0.8), rgba(27, 27, 85, 0.8)), url("../media/00\ banner-0ff5daa1-0e6d-49fb-9054-af42c611af85.jpg");
+    background-position: center;
+    background-size: contain;
+    position: relative;
+  }
+
+  .about-section9 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(62, 62, 166, 0.8), rgba(62, 62, 166, 0.8)), url("../media/499706815e36fb25babf15de1d496c54.jpg");
+    background-position: center;
+    background-size: contain;
+    position: relative;
+  }
+
+  .about-section10 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(129, 21, 153, 0.8), rgba(129, 21, 153, 0.8)), url("../media/performance-background.jpg");
+    background-position: center;
+    background-size: contain;
+    position: relative;
+  }
+
+  .about-section11 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(27, 27, 85, 0.8), rgba(27, 27, 85, 0.8)), url("../media/geeks-vocals-background1.png");
+    background-position: center;
+    background-size: contain;
+    position: relative;
+  }
+
+  .about-section12 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0; /* Adjust padding for spacing */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FF7F7F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(rgba(27, 27, 85, 0.8), rgba(27, 27, 85, 0.8)), url("../media/cosplay-walk-background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }

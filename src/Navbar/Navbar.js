@@ -6,8 +6,18 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 export default function Navbar() {
   const [click, setClick] = useState(false);
   const closeMobileMenu = () => setClick(false);
+  const [hideSocial, setHideSocial] = useState(false);
+
+  const [isModulesHovered, setIsModulesHovered] = useState(false);
 
   const [isNavFixed, setNavFixed] = useState(false);
+
+  const handleModulesMouseEnter = () => {
+    setIsModulesHovered(true);
+  };
+  const handleModulesMouseLeave = () => {
+    setIsModulesHovered(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,45 +41,47 @@ export default function Navbar() {
     <>
       <nav className={isNavFixed ? "fixed" : ""}>
         <div className="navbar-container" style={{ display: "flex" }}>
-          <div className="nav-socials">
-            <ul className="nav-menu">
-              <li className="nav-item">
-                <a
-                  href="https://www.facebook.com/events/1257843534893554"
-                  className="nav-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={closeMobileMenu}
-                >
-                  <FaFacebookF size={"1.5em"} className={"fbIcon"} />
-                </a>
-              </li>
+          {!hideSocial && (
+            <div className="nav-socials">
+              <ul className="nav-menu">
+                <li className="nav-item">
+                  <a
+                    href="https://www.facebook.com/events/1257843534893554"
+                    className="nav-links"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMobileMenu}
+                  >
+                    <FaFacebookF size={"1.5em"} className={"fbIcon"} />
+                  </a>
+                </li>
 
-              <li className="nav-item">
-                <a
-                  href="https://www.instagram.com/iba.con"
-                  className="nav-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={closeMobileMenu}
-                >
-                  <FaInstagram size={"1.5em"} className={"igIcon"} />
-                </a>
-              </li>
+                <li className="nav-item">
+                  <a
+                    href="https://www.instagram.com/iba.con"
+                    className="nav-links"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMobileMenu}
+                  >
+                    <FaInstagram size={"1.5em"} className={"igIcon"} />
+                  </a>
+                </li>
 
-              <li className="nav-item">
-                <a
-                  href="https://www.youtube.com/@AniPopIBA"
-                  className="nav-links"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={closeMobileMenu}
-                >
-                  <FaYoutube size={"1.5em"} className={"ytIcon"} />
-                </a>
-              </li>
-            </ul>
-          </div>
+                <li className="nav-item">
+                  <a
+                    href="https://www.youtube.com/@AniPopIBA"
+                    className="nav-links"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMobileMenu}
+                  >
+                    <FaYoutube size={"1.5em"} className={"ytIcon"} />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          )}
 
           <div className="nav-main">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -88,17 +100,6 @@ export default function Navbar() {
                   About
                 </Link>
               </li>
-
-              <li className="nav-item page-link">
-                <Link
-                  to="/modules"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  Modules
-                </Link>
-              </li>
-
               <li className="nav-item page-link">
                 <Link
                   to="/contact"
@@ -107,6 +108,38 @@ export default function Navbar() {
                 >
                   Contact
                 </Link>
+              </li>
+              <li
+                className="nav-item page-link"
+                onMouseEnter={handleModulesMouseEnter}
+                onMouseLeave={handleModulesMouseLeave}
+              >
+                <Link
+                  to="/modules"
+                  className="nav-links"
+                  onClick={handleModulesMouseLeave}
+                >
+                  Modules
+                </Link>
+                {isModulesHovered && (
+                  <div className="dropdown-content">
+                    <li className="nav-item page-link">
+                      <Link to="#">Stage </Link>
+                    </li>
+                    <li className="nav-item page-link">
+                      <Link to="#">Art </Link>
+                    </li>
+                    <li className="nav-item page-link">
+                      <Link to="#">Gaming </Link>
+                    </li>
+                    <li className="nav-item page-link">
+                      <Link to="#">Auditorium </Link>
+                    </li>
+                    <li className="nav-item page-link">
+                      <Link to="#">VolleyBall </Link>
+                    </li>
+                  </div>
+                )}
               </li>
             </ul>
           </div>
