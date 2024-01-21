@@ -6,9 +6,12 @@ export default function TopScreen() {
   return (
     <>
       <div className="img-container">
-        <Link to="/passes">
-          <button className="pass-btn">Get Passes </button>
-        </Link>
+        <div className="announcement">
+          <h1>11th February 2024</h1>
+          <Link to="/passes">
+            <button className="pass-btn">Get Passes </button>
+          </Link>
+        </div>
       </div>
     </>
   );
