@@ -1,6 +1,6 @@
 .comp-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   margin: 1rem 0;
   margin: 0;
@@ -14,11 +14,13 @@
   justify-items: center;
   align-items: center;
   padding: 2em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 .comp-desc {
   text-align: center;
   margin: 1em;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .comp-btn {
@@ -29,6 +31,8 @@
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
   color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
   cursor: pointer;
   transition: all 0.2s ease;
   width: 20vw;

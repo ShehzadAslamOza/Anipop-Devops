@@ -10,11 +10,12 @@ body {
 
 section {
   height: max-content;
+  min-height: 50vh;
 }
 #screen2 {
-  background: #efc94d;
+  background: black;
 }
 
 #screen3 {
-  background: #e1793d;
+  background: black;
 }

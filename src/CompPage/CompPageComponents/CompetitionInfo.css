@@ -38,6 +38,8 @@
   font-size: 3em;
   margin: 0;
   padding: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 .comp-container p {
   font-size: 1.2em;
