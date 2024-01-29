@@ -13,6 +13,18 @@
   height: min("50vh", "100vw");
   width: 70vw;
 }
+
+.mobile-btn {
+  background-color: #5c469c;
+  column-gap: white;
+  border-radius: 1em;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mobile-btn a {
+  text-decoration: none;
+  color: white;
+}
 .BA-title {
   color: black;
   text-align: center;
