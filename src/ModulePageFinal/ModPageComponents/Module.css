@@ -1,0 +1,47 @@
+.mod-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  margin: 0;
+}
+.mod-card {
+  text-align: center;
+  height: min(100vw, 80vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 2em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.mod-desc {
+  text-align: center;
+  margin: 1em;
+  font-size: 2em;
+}
+
+.mod-btn {
+  background: linear-gradient(155deg, #f0c27b 0%, #ad1ba3 100%);
+  border: none;
+  border-radius: 0.5rem;
+  z-index: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 20vw;
+  height: min(10vh, 10vw);
+}
+.mod-btn:hover {
+  scale: 1.05;
+}
+.mod-link {
+  text-decoration: none;
+  color: white;
+}

@@ -111,7 +111,7 @@ export default function AboutPage() {
               <div class="b-game-card__cover">
                 <img src={Burhan} alt={Burhan} />
                 <div class="b-game-card__back">
-                  <p>CON SCNZ</p>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -119,7 +119,7 @@ export default function AboutPage() {
               <div class="b-game-card__cover">
                 <img src={Zia} alt={Zia} />
                 <div class="b-game-card__back">
-                  <p>CON SCNZ</p>
+                  <p></p>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function AboutPage() {
               <div class="b-game-card__cover">
                 <img src={Palize} alt={Palize} />
                 <div class="b-game-card__back">
-                  <p>CON SCNZ</p>
+                  <p></p>
                 </div>
               </div>
             </div>

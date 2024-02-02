@@ -3,54 +3,218 @@ body{
     padding: 0;
 }
 
+
+.aboutsection {
+  text-align: center;
+  padding: 50px 0; /* Adjust padding for spacing */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
 .about-section20 {
-    font-size: 40px;
-    text-align: center;
-    padding: 50px 0; /* Adjust padding for spacing */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FF7F7F;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(rgba(27, 27, 85, 0.8), rgba(27, 27, 85, 0.8)), url("./volleyballmedia/volleyball-background.avif");
-    background-position: center;
-    background-size: contain;
-    position: relative;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("./volleyballmedia/volleyball-background.avif");
+  background-position: center;
+  background-size: cover;
+  color: #fff; /* Set text color for better visibility on the background */
+}
 
-  .about-section21 {
-    font-size: 40px;
-    text-align: center;
-    padding: 50px 0; /* Adjust padding for spacing */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FF7F7F;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(rgba(56, 56, 176, 0.8), rgba(56, 56, 176, 0.8)), url("./volleyballmedia/volleyball-background1.jpg");
-    background-position: center;
-    background-size: contain;
-    position: relative;
-  }
+.about-section20 h1 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
 
-  .about-section22 {
-    font-size: 40px;
-    text-align: center;
-    padding: 50px 0; /* Adjust padding for spacing */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FF7F7F;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(rgba(8, 8, 67, 0.8), rgba(8, 8, 67, 0.8)), url("./volleyballmedia/vertical-jump-background.avif");
-    background-position: center;
-    background-size: contain;
-    position: relative;
-  }
+.about-section20 > div {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal arrangement */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure full width for background image responsiveness */
+  padding: 1rem;
+}
 
-  .about-section23 {
-    font-size: 40px;
-    text-align: center;
-    padding: 50px 0; /* Adjust padding for spacing */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FF7F7F;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    background-image: linear-gradient(rgba(56, 56, 176, 0.8), rgba(56, 56, 176, 0.8)), url("./volleyballmedia/volleyball-background1.jpg");
-    background-position: center;
-    background-size: contain;
-    position: relative;
+.about-section20 img {
+  width: auto;
+  max-width: min(100vw, 35vh);
+  height: auto;
+}
+
+.about-section20 div > div {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section20 > div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 22.5px;
   }
+  
+  .about-section20 img {
+    max-width: min(60vw, 80vh); /* Adjust the size as needed */
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}
+
+.about-section21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("./volleyballmedia/volleyball-background1.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff; /* Set text color for better visibility on the background */
+}
+
+.about-section21 h1 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.about-section21 > div {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal arrangement */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure full width for background image responsiveness */
+  padding: 1rem;
+}
+
+.about-section21 img {
+  width: auto;
+  max-width: min(80vw, 24vh);
+  height: auto;
+}
+
+.about-section21 div > div {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section21 > div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 22.5px;
+  }
+  
+  .about-section21 img {
+    max-width: min(36vw, 70vh); /* Adjust the size as needed */
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}
+
+.about-section22 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("./volleyballmedia/vertical-jump-background.avif");
+  background-position: center;
+  background-size: cover;
+  color: #fff; /* Set text color for better visibility on the background */
+}
+
+.about-section22 h1 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.about-section22 > div {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal arrangement */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure full width for background image responsiveness */
+  padding: 1rem;
+}
+
+.about-section22 img {
+  width: auto;
+  max-width: min(100vw, 80vh);
+  height: auto;
+}
+
+.about-section22 div > div {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section22 > div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 22.5px;
+  }
+  
+  .about-section22 img {
+    max-width: min(80vw, 80vh); /* Adjust the size as needed */
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}
+
+.about-section23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url("./volleyballmedia/volleyball-background.avif");
+  background-position: center;
+  background-size: cover;
+  color: #fff; /* Set text color for better visibility on the background */
+}
+
+.about-section23 h1 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+}
+
+.about-section23 > div {
+  font-size: 24px;
+  display: flex;
+  flex-direction: row; /* Set to row for horizontal arrangement */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Ensure full width for background image responsiveness */
+  padding: 1rem;
+}
+
+.about-section23 img {
+  width: auto;
+  max-width: min(100vw, 30vh);
+  height: auto;
+}
+
+.about-section23 div > div {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-section23 > div {
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+  }
+  
+  .about-section23 img {
+    max-width: min(42vw, 80vh); /* Adjust the size as needed */
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+}

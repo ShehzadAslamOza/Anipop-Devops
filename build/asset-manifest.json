@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab146f82.css",
-    "main.js": "/static/js/main.f202f00f.js",
+    "main.css": "/static/css/main.b01a0d6b.css",
+    "main.js": "/static/js/main.fb28aa89.js",
     "static/media/animibacon.gif": "/static/media/animibacon.74abf013fa9e6fb001bc.gif",
     "static/media/backlight2.png": "/static/media/backlight2.5bf81cfb43ddb119cfd3.png",
     "static/media/audi-background.jpg": "/static/media/audi-background.a984b75d48b1864f076f.jpg",
@@ -69,11 +69,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ab146f82.css.map": "/static/css/main.ab146f82.css.map",
-    "main.f202f00f.js.map": "/static/js/main.f202f00f.js.map"
+    "main.b01a0d6b.css.map": "/static/css/main.b01a0d6b.css.map",
+    "main.fb28aa89.js.map": "/static/js/main.fb28aa89.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab146f82.css",
-    "static/js/main.f202f00f.js"
+    "static/css/main.b01a0d6b.css",
+    "static/js/main.fb28aa89.js"
   ]
 }

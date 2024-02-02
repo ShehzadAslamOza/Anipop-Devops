@@ -16,20 +16,15 @@ export default function Gaming() {
     
     return (
         <div>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            <Swiper navigation={true} modules={[Navigation]} className="aboutsection">
                 <SwiperSlide><div className="about-section16">
                     <h1>Gaming Module</h1>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <div style={{ flex: '1' }}>
-                            <img src={Talha} alt="" style={{
-                                width: "36%", /* Adjust the width as needed */
-                                height: "auto", /* Maintain aspect ratio */
-                                margin: "0 auto", /* Center the container horizontally */
-                                padding: "1.5rem"
-                            }} />
-                            <div style={{ color: '#FF7F7F', textAlign: 'center', fontSize: "30px" }}>Module Head<br />Talha Tahjuddin</div>
+                    <div>
+                        <div>
+                            <img src={Talha} alt=""  />
+                            <div>Module Head<br />Talha Tahjuddin</div>
                         </div>
-                        <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+                        <div>
                             Welcome to IBA CON's Gaming Module - a haven for avid gamers and enthusiasts alike! Immerse yourself in the electrifying world of
                             gaming as we present two thrilling tournaments and a gaming booth packed with exciting titles.
                         </div>
@@ -38,33 +33,23 @@ export default function Gaming() {
 
                 <SwiperSlide><div className="about-section17">
                     <h1>Tekken Tournament</h1>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+                    <div>
+                        <div>
                             Get ready to throw down in the ultimate battle of fists and kicks! The Tekken Tournament at IBA CON promises intense one-on-one
                             combat as participants compete for the title of Tekken Champion. With its iconic characters and dynamic gameplay, this tournament
                             is a showcase of skill, strategy, and lightning-fast reflexes.
                         </div>
-                        <div style={{ flex: '1' }}>
-                            <img src={tekken7} alt="" style={{
-                                width: "75%", /* Adjust the width as needed */
-                                height: "auto", /* Maintain aspect ratio */
-                                margin: "0 auto", /* Center the container horizontally */
-                                padding: "1.5rem"
-                            }} />
+                        <div>
+                            <img src={tekken7} alt="" />
                         </div>
                     </div>
                 </div></SwiperSlide>
 
                 <SwiperSlide><div className="about-section18">
                     <h1>Super Smash Bros</h1>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <div style={{ flex: '1' }}>
-                            <img src={SSB} alt="" style={{
-                                width: "75%", /* Adjust the width as needed */
-                                height: "auto", /* Maintain aspect ratio */
-                                margin: "0 auto", /* Center the container horizontally */
-                                padding: "1.5rem"
-                            }} />
+                    <div>
+                        <div>
+                            <img src={SSB} alt=""  />
                         </div>
                         <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
                             Calling all Smash enthusiasts! The Super Smash Bros Tournament is a clash of iconic characters from various gaming universes.
@@ -76,20 +61,15 @@ export default function Gaming() {
 
                 <SwiperSlide><div className="about-section19">
                     <h1>Gaming Booth</h1>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+                    <div>
+                        <div>
                             Step into the gaming paradise at IBA CON's Gaming Booth! Unleash powerful moves in "Dragon Ball Z: Budokai Tenkaichi 3,"
                              experience the latest in the iconic series with "Tekken 8," and immerse yourself in ninja battles with 
                              "Naruto Shippuden: Ultimate Ninja Storm 4." From epic showdowns to strategic combat, the Gaming Booth is a haven for 
                              all gaming enthusiasts, offering a thrilling glimpse into the diverse world of gaming culture.
                         </div>
-                        <div style={{ flex: '1' }}>
-                            <img src={GamingBooth} alt="" style={{
-                                width: "62.5%", /* Adjust the width as needed */
-                                height: "auto", /* Maintain aspect ratio */
-                                margin: "0 auto", /* Center the container horizontally */
-                                padding: "1.5rem"
-                            }} />
+                        <div>
+                            <img src={GamingBooth} alt="" />
                         </div>
                     </div>
                 </div></SwiperSlide>

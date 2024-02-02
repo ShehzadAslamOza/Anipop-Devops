@@ -21,68 +21,48 @@ export default function StageModule() {
     
   return (
     <div className='container'>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="aboutsection">
       <SwiperSlide><div className="about-section5" >
             <h1>Stage Module</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <div style={{ flex: '1', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-                <div style={{ marginRight: "10px" }}>
-                  <img src={Myrol} alt="" style={{
-                    width: "48%", /* Adjust the width as needed */
-                    height: "100%", /* Maintain aspect ratio */
-                    margin: "0 auto", /* Center the container horizontally */
-                    padding: "1.5rem",
-                  }} />
-                  <div style={{ color: 'pink', textAlign: 'center' }}>Module Head<br />Miraal Aftab</div>
+            <div>
+              <div className='team-members'>
+                <div className='member'>
+                  <img src={Myrol} alt=""/>
+                  <div>Module Head<br />Miraal Aftab</div>
                 </div>
-                <div>
-                  <img src={Zuhair} alt="" style={{
-                    width: "65%", /* Adjust the width as needed */
-                    height: "auto", /* Maintain aspect ratio */
-                    margin: "0 auto", /* Center the container horizontally */
-                    padding: "1.5rem"
-                  }} />
-                  <div style={{ color: 'pink', textAlign: 'center' }}>Module Head<br />Zuhair Shah</div>
+                <div className='member'>
+                  <img src={Zuhair} alt=""  />
+                  <div>Module Head<br />Zuhair Shah</div>
                 </div>
               </div>
-              <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+              <div>
                 Get ready for a non-stop thrill ride at our event's stage module! Our carefully curated lineup promises to keep
                 you entertained and engaged throughout the day.
-                <br /><span style={{ fontSize: '2rem', lineHeight: 1.5 }}>Here's a glimpse of what's in store:</span>
+                <br /><span>Here's a glimpse of what's in store:</span>
               </div>
             </div>
           </div></SwiperSlide>
 
           <SwiperSlide><div className="about-section6">
             <h1>Family Feud</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+            <div>
+              <div>
                 Watch families battle it out in a hilarious and friendly competition that will have you on the edge of your seat.
                 Laughter and surprises guaranteed!
               </div>
-              <div style={{ flex: '1' }}>
-                <img src={FFAnime} alt="" style={{
-                  width: "55%", /* Adjust the width as needed */
-                  height: "auto", /* Maintain aspect ratio */
-                  margin: "0 auto", /* Center the container horizontally */
-                  padding: "1.5rem"
-                }} />
+              <div>
+                <img src={FFAnime} alt="" />
               </div>
             </div>
           </div></SwiperSlide>
 
           <SwiperSlide><div className="about-section7">
             <h1>Hot Takes/Tier List</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <div style={{ flex: '1' }}>
-                <img src={TierList} alt="" style={{
-                  width: "73%", /* Adjust the width as needed */
-                  height: "auto", /* Maintain aspect ratio */
-                  margin: "0 auto", /* Center the container horizontally */
-                  padding: "1.5rem"
-                }} />
+            <div>
+              <div>
+                <img src={TierList} alt="" />
               </div>
-              <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+              <div>
                 Engage in spirited discussions as participants share their hot takes and create tier lists on popular characters/topics.
                 Get ready for some passionate opinions and lively debates!
               </div>
@@ -91,34 +71,24 @@ export default function StageModule() {
 
           <SwiperSlide><div className="about-section8">
             <h1>Guess the Anime Opening</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+            <div>
+              <div>
               Test your pop culture knowledge as you try to guess the opening sequences of iconic movies, TV shows, and games. 
               Quick thinking and a sharp eye will be your best assets!
               </div>
-              <div style={{ flex: '1' }}>
-                <img src={AnimeOp} alt="" style={{
-                  width: "73%", /* Adjust the width as needed */
-                  height: "auto", /* Maintain aspect ratio */
-                  margin: "0 auto", /* Center the container horizontally */
-                  padding: "1.5rem"
-                }} />
+              <div>
+                <img src={AnimeOp} alt="" />
               </div>
             </div>
           </div></SwiperSlide>
 
           <SwiperSlide><div className="about-section9">
           <h1>Gaming Tournament Finale</h1>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div style={{ flex: '1' }}>
-              <img src={GamingFinale} alt="" style={{
-                width: "61%", /* Adjust the width as needed */
-                height: "auto", /* Maintain aspect ratio */
-                margin: "0 auto", /* Center the container horizontally */
-                padding: "1.5rem"
-              }} />
+          <div>
+            <div>
+              <img src={GamingFinale} alt="" />
             </div>
-            <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+            <div>
             Get ready for the ultimate gaming showdown as our stage module hosts the intense finale of the Tekken 7 and Super Smash Bros tournaments
             ! Top-tier players will battle it out in thrilling one-on-one matches, showcasing jaw-dropping moves and strategic gameplay. Don't miss 
             the excitement as iconic characters collide on the big screen, delivering an adrenaline-pumping spectacle that defines the pinnacle of 
@@ -129,34 +99,24 @@ export default function StageModule() {
 
         <SwiperSlide><div className="about-section10">
             <h1>Performance</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+            <div>
+              <div>
               Enjoy a variety of captivating performances showcasing talent in music, dance, and other exciting acts. From jaw-dropping displays 
               to soulful melodies, our stage is set to be a feast for the senses.
               </div>
               <div style={{ flex: '1' }}>
-                <img src={PerformancePFP} alt="" style={{
-                  width: "72.5%", /* Adjust the width as needed */
-                  height: "auto", /* Maintain aspect ratio */
-                  margin: "0 auto", /* Center the container horizontally */
-                  padding: "1.5rem"
-                }} />
+                <img src={PerformancePFP} alt="" />
               </div>
             </div>
           </div></SwiperSlide>
 
           <SwiperSlide><div className="about-section11">
           <h1>Geeks Got Talent</h1>
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <div style={{ flex: '1' }}>
-              <img src={GGV} alt="" style={{
-                width: "20.5%", /* Adjust the width as needed */
-                height: "auto", /* Maintain aspect ratio */
-                margin: "0 auto", /* Center the container horizontally */
-                padding: "1.5rem"
-              }} />
+          <div>
+            <div>
+              <img src={GGV} alt="" />
             </div>
-            <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+            <div>
             Geeks Got Talent brings together the most extraordinary talents of the day. From mind-blowing magic tricks to awe-inspiring 
             performances, be prepared to be amazed!
             <br/>Don't miss out on the chance to be part of the action. For those with hidden talents, our Geeks Got Talent competition awaits 
@@ -172,19 +132,13 @@ export default function StageModule() {
 
         <SwiperSlide><div className="about-section12">
             <h1>Cosplay Walk</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-              <div style={{ flex: '1', fontSize: '25px', marginLeft: '40px', marginRight: '40px' }}>
+            <div>
+              <div>
               The grand finale awaits! Witness a parade of creativity as cosplayers strut their stuff on the stage.
                Marvel at the intricate costumes and impeccable character portrayals that bring fantasy to life.
-               <br /><span style={{ fontSize: '4rem', lineHeight: 1.5 }}>MAZA AYEGA GUYZ!!!!</span>
               </div>
-              <div style={{ flex: '1' }}>
-                <img src={cosplayWalk} alt="" style={{
-                  width: "33%", /* Adjust the width as needed */
-                  height: "auto", /* Maintain aspect ratio */
-                  margin: "0 auto", /* Center the container horizontally */
-                  padding: "1.5rem"
-                }} />
+              <div>
+                <img src={cosplayWalk} alt=""/>
               </div>
             </div>
           </div></SwiperSlide>

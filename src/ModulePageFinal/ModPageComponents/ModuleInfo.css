@@ -1,0 +1,47 @@
+.mod-link-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.mod-link-container a {
+  font-size: 1.5em;
+  color: #ff7f7f;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.6em 1.6em;
+  margin: 0.6em;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mod-link-container a:hover {
+  box-shadow: 0 0 0px 1px rgba(255, 255, 255, 0.5),
+    2px 2px 6px rgba(49, 188, 184, 0.4), -2px -2px 6px rgba(251, 131, 250, 0.4);
+
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.4);
+
+  scale: 1.02;
+}
+
+.mod-container {
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding: 2em;
+  background-image: url("../media/mtp.png");
+  background-size: cover;
+}
+.mod-container h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.mod-container p {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}

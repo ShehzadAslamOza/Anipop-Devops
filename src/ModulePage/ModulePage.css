@@ -2,11 +2,12 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.empty {
-  height: 5vh;
+.module-section {
+  max-height: min-content;
 }
-
+:root {
+  background-color: black;
+}
 .about-section4 {
   font-size: 40px;
   text-align: center;
@@ -21,23 +22,16 @@ body {
   position: relative;
 }
 
-:root {
-  --x: 45deg;
-}
-
 .button-container {
   display: flex;
   flex-direction: row;
 }
 
-@keyframes bounceIn {
-  from {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  to {
-    transform: scale(1);
+/* Media Query for screens smaller than 768px (adjust the value as needed) */
+@media only screen and (max-width: 768px) {
+  .about-section4 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+    padding: 30px 0; /* Adjust padding for spacing on smaller screens */
+    background-size: cover; /* Use 'cover' to maintain image size on smaller screens */
   }
 }
