@@ -6,10 +6,32 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
+import audibg from "./media/audbg.jpg";
 import mic from "./media/mic.jpg";
-import da from "./media/da.jpg";
-import va from "./media/va.jpg";
+
 import an from "./media/an.jpg";
+import unamed from "./media/unnamed.jpg";
+import film from "./media/film.jpg";
+import pzbg from "./media/pzbg.jpg";
+import ffbg from "./media/ffbg.jpg";
+import smbg from "./media/smbg.jpg";
+import tlbg from "./media/tlbg.jpg";
+import gto from "./media/gtobg.png";
+import gbg from "./media/gbg.jpg";
+import ebg from "./media/ebg.jpg";
+import cwbg from "./media/cwbg.jpg";
+import ggvbg from "./media/ggvbg.jpg";
+import ssbg from "./media/sbbg.jpg";
+import gbbg from "./media/gbbg.jpg";
+import tbg from "./media/tbg.jpg";
+import gmbg from "./media/gmbg.jpeg";
+import vbg from "./media/vbbg.jpg";
+import tenbg from "./media/10bg.jpg";
+import vjbg from "./media/vjbg.jpg";
+import ttybg from "./media/ttybg.png";
+import ambg from "./media/ambg.jpg";
+import tabg from "./media/tabg.jpg";
+import paneltalk from "./media/panel-talk.jpg";
 import ModuleInfo from "./ModPageComponents/ModuleInfo";
 import Module from "./ModPageComponents/Module";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -22,14 +44,15 @@ export default function ModulePage() {
         <ModuleInfo />
       </section>
       <section id="mod-screen2">
-        <Swiper navigation={true} modules={Navigation} className="my-swiper">
+        <Swiper navigation={false} modules={Navigation} className="my-swiper">
           <SwiperSlide>
             <Module
               title="Stage Module"
               description="Get ready for a non-stop thrill ride at our event's stage module! Our carefully curated lineup promises to keep
           you entertained and engaged throughout the day."
-              fi="Swipe right for more ->"
-              img={an}
+              fi="Swipe right for more →"
+              img={smbg}
+              color="white"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -38,7 +61,8 @@ export default function ModulePage() {
               description="Watch families battle it out in a hilarious and friendly competition that will have you on the edge of your seat.
               Laughter and surprises guaranteed!"
               link=""
-              img={an}
+              img={ffbg}
+              color="white"
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -47,7 +71,7 @@ export default function ModulePage() {
               description=" Engage in spirited discussions as participants share their hot takes and create tier lists on popular characters/topics.
               Get ready for some passionate opinions and lively debates!"
               link=""
-              img={an}
+              img={tlbg}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -56,7 +80,7 @@ export default function ModulePage() {
               description="Test your pop culture knowledge as you try to guess the opening sequences of iconic movies, TV shows, and games. 
               Quick thinking and a sharp eye will be your best assets!"
               link=""
-              img={an}
+              img={gto}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -67,7 +91,8 @@ export default function ModulePage() {
               the excitement as iconic characters collide on the big screen, delivering an adrenaline-pumping spectacle that defines the pinnacle of 
               our gaming tournament. Who will emerge victorious in this epic duel of skills? Find out as the stage lights up with gaming glory!"
               link=""
-              img={an}
+              img={ebg}
+              color=""
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -76,7 +101,7 @@ export default function ModulePage() {
               description="Enjoy a variety of captivating performances showcasing talent in music, dance, and other exciting acts. From jaw-dropping displays 
               to soulful melodies, our stage is set to be a feast for the senses."
               link=""
-              img={an}
+              img={ggvbg}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -87,7 +112,7 @@ export default function ModulePage() {
               <br/>Don't miss out on the chance to be part of the action. For those with hidden talents, our Geeks Got Talent competition awaits 
               you! If you think you have what it takes, sign up now by clicking the competition signups button below."
               link=""
-              img={an}
+              img={mic}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -96,22 +121,22 @@ export default function ModulePage() {
               description=" The grand finale awaits! Witness a parade of creativity as cosplayers strut their stuff on the stage.
               Marvel at the intricate costumes and impeccable character portrayals that bring fantasy to life."
               link=""
-              img={an}
+              img={cwbg}
             />
           </SwiperSlide>
         </Swiper>
       </section>
       <section id="mod-screen3">
         {" "}
-        <Swiper navigation={true} modules={Navigation} className="my-swiper">
+        <Swiper navigation={false} modules={Navigation} className="my-swiper">
           <SwiperSlide>
             <Module
               title="Arts Module"
               description="Step into a world of creativity at our event's Arts Module, where artistic expression takes center stage! Immerse yourself
               in the beauty of traditional and digital art through two thrilling competitions that celebrate the diverse realms of
               artistic talent."
-              fi="Swipe right for more ->"
-              img={an}
+              fi="Swipe right for more →"
+              img={ambg}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -121,7 +146,7 @@ export default function ModulePage() {
               exploration of characters' divergent stories using provided materials like paints, paper, and brushes, or bring your own to craft a
               truly distinctive narrative."
               link=""
-              img={an}
+              img={tabg}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -132,21 +157,21 @@ export default function ModulePage() {
               character that perfectly captures the essence of their given theme. These characters will be judged against others,
               and winners will be rewarded with various prizes!"
               link=""
-              img={an}
+              img={unamed}
             />
           </SwiperSlide>
         </Swiper>
       </section>
       <section id="mod-screen4">
         {" "}
-        <Swiper navigation={true} modules={Navigation} className="my-swiper">
+        <Swiper navigation={false} modules={Navigation} className="my-swiper">
           <SwiperSlide>
             <Module
               title="Gaming Module"
               description="Welcome to IBA CON's Gaming Module - a haven for avid gamers and enthusiasts alike! Immerse yourself in the electrifying world of
               gaming as we present two thrilling tournaments and a gaming booth packed with exciting titles."
-              fi="Swipe right for more ->"
-              img={an}
+              fi="Swipe right for more →"
+              img={gmbg}
             />
           </SwiperSlide>
 
@@ -157,7 +182,7 @@ export default function ModulePage() {
               combat as participants compete for the title of Tekken Champion. With its iconic characters and dynamic gameplay, this tournament
               is a showcase of skill, strategy, and lightning-fast reflexes."
               fi=""
-              img={an}
+              img={tbg}
             />
           </SwiperSlide>
 
@@ -168,7 +193,7 @@ export default function ModulePage() {
               Smash your way to victory as you navigate the chaotic arenas, unleashing powerful moves and strategic plays. Will you emerge as
               the Super Smash Bros Champion?"
               link=""
-              img={an}
+              img={ssbg}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -179,14 +204,14 @@ export default function ModulePage() {
               'Naruto Shippuden: Ultimate Ninja Storm 4.' From epic showdowns to strategic combat, the Gaming Booth is a haven for 
               all gaming enthusiasts, offering a thrilling glimpse into the diverse world of gaming culture."
               link=""
-              img={an}
+              img={gbbg}
             />
           </SwiperSlide>
         </Swiper>
       </section>
       <section id="mod-screen5">
         {" "}
-        <Swiper navigation={true} modules={Navigation} className="my-swiper">
+        <Swiper navigation={false} modules={Navigation} className="my-swiper">
           <SwiperSlide>
             <Module
               title="Volleyball Module"
@@ -196,8 +221,8 @@ export default function ModulePage() {
               blend skill and teamwork, providing an energetic and social
               atmosphere. Test your accuracy and finesse in fun serving
               challenges, perfect for players of all levels."
-              fi="Swipe right for more ->"
-              img={an}
+              fi="Swipe right for more →"
+              img={vbg}
             />
           </SwiperSlide>
 
@@ -206,7 +231,7 @@ export default function ModulePage() {
               title="First to 10 Points - Win Team Volleyball<"
               description="Get ready for intense, fast-paced action as teams compete to be the first to reach 10 points. This condensed version of traditional volleyball emphasizes quick thinking, strategic plays, and precise execution. With shorter matches, the First to 10 Points format adds an extra layer of excitement, making every point crucial and the competition highly unpredictable."
               fi=""
-              img={an}
+              img={tenbg}
             />
           </SwiperSlide>
 
@@ -222,7 +247,7 @@ export default function ModulePage() {
               suspense as spectators eagerly anticipate who will reach the
               highest heights."
               link=""
-              img={an}
+              img={vjbg}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -237,22 +262,22 @@ export default function ModulePage() {
               interactive element to the module, sparking friendly banter and
               memorable moments."
               link=""
-              img={an}
+              img={ttybg}
             />
           </SwiperSlide>
         </Swiper>
       </section>
       <section id="mod-screen6">
         {" "}
-        <Swiper navigation={true} modules={Navigation} className="my-swiper">
+        <Swiper navigation={false} modules={Navigation} className="my-swiper">
           <SwiperSlide>
             <Module
               title="Auditorium Module"
               description=" The IBA CON Auditorium Module is designed to be a versatile space that serves as the heart of intellectual and creative
               exchange during the IBA CON event. With a focus on fostering dialogue, cinematic exploration, and recognizing talent in
               voice acting, this module promises a diverse range of experiences for attendees."
-              fi="Swipe right for more ->"
-              img={an}
+              fi="Swipe right for more →"
+              img={audibg}
             />
           </SwiperSlide>
 
@@ -264,7 +289,7 @@ export default function ModulePage() {
               and innovations. Attendees can expect thought-provoking conversations that stimulate intellectual curiosity and encourage
               collaboration among participants."
               fi=""
-              img={an}
+              img={paneltalk}
             />
           </SwiperSlide>
 
@@ -276,7 +301,7 @@ export default function ModulePage() {
               spark conversations, and celebrate the art of storytelling through the lens. This cinematic experience is designed to enrich 
               the overall IBA CON journey, providing a visual and emotional dimension to the event."
               link=""
-              img={an}
+              img={film}
             />
           </SwiperSlide>
           <SwiperSlide>
@@ -287,7 +312,7 @@ export default function ModulePage() {
               in voice acting. These awards not only acknowledge the talent of the recipients but also honor their significant contributions to the 
               storytelling landscape."
               link=""
-              img={an}
+              img={pzbg}
             />
           </SwiperSlide>
         </Swiper>

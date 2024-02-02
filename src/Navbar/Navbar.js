@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { RiFileWarningLine } from "react-icons/ri";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
@@ -77,6 +78,17 @@ export default function Navbar() {
                     onClick={closeMobileMenu}
                   >
                     <FaYoutube size={"1.5em"} className={"ytIcon"} />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    href="https://osa.iba.edu.pk/student-resources/policies/code-of-conduct.pdf"
+                    className="nav-item page-link nav-links"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMobileMenu}
+                  >
+                    <RiFileWarningLine size={"1.5em"} className={"ytIcon"} />
                   </a>
                 </li>
               </ul>

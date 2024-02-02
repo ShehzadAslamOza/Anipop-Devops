@@ -8,6 +8,7 @@ export default function Module(props) {
       style={{
         backgroundImage: `url(${props.img})`,
         backgroundSize: "cover",
+        color: `${props.color}`,
       }}
     >
       <div></div>

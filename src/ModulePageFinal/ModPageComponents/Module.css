@@ -7,6 +7,7 @@
 }
 .mod-card {
   text-align: center;
+
   height: min(100vw, 80vh);
   display: flex;
   flex-direction: column;

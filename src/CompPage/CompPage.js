@@ -7,7 +7,8 @@ import Competition from "./CompPageComponents/Competition";
 import mic from "./media/mic.jpg";
 import da from "./media/da.jpg";
 import va from "./media/va.jpg";
-import an from "./media/an.jpg";
+
+import z from "./media/z.jpg";
 export default function CompPage() {
   return (
     <div>
@@ -21,7 +22,7 @@ export default function CompPage() {
           title="Animation"
           description="Welcome to the Animation Competition, where you embark on an animated adventure like never before. Infuse your art with personality, craft mesmerizing stories through the magic of animation, and unveil your artistic brilliance. Easily submit your masterpieces using these forms, and be a contender for the spotlight in this animated showdown. Join us as we celebrate the art of animation, where every frame tells a unique tale."
           link="https://forms.gle/s21CyjF6QMUJDVgs6"
-          img={an}
+          img={z}
         />
       </section>
       <section id="comp-screen3">

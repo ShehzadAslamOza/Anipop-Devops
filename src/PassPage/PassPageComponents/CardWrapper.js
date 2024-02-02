@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import "./CardWrapper.css";
-import twlogo from "./tw.jpg";
+import twlogo from "./media/tw.png";
 
 export default function CardWrapper() {
   return (
@@ -9,7 +9,7 @@ export default function CardWrapper() {
       <Card
         title="Online Passes"
         description="Visit Ticketwala to get your passes now"
-        action="Visit Ticketwala"
+        action="Visit  on   Ticketwala"
         link="https://ticketwala.pk/event/iba-con"
         img={twlogo}
       />

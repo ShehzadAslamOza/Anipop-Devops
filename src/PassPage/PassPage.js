@@ -19,6 +19,7 @@ export default function PassPage() {
             name="Shaikh Jehanzeib Saeed"
             university="Aga Khan University"
             location="DHA Phase 7"
+            contact="Opposite Bilal Masjid"
           />
           <BAcard
             name="Muhammad Areez Larik"

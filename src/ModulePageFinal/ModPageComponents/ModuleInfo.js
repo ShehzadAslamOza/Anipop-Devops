@@ -14,13 +14,7 @@ export default function ModuleInfo() {
           <a href="#mod-screen6"> Auditorium </a>
           <a href="#mod-screen5"> Volleyball </a>
         </div>
-        <p>
-          Embark on an exciting journey at IBACON, where knowledge meets
-          entertainment. Discover diverse modules designed for every interest,
-          from expert-led sessions to hands-on workshops. Brace yourself for
-          gaming tournaments, awesome activities, and surprises that promise an
-          unforgettable experience.
-        </p>
+        <p></p>
       </p>
     </div>
   );
