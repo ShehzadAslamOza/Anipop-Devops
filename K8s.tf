@@ -59,8 +59,8 @@ resource "kubernetes_service" "example" {
 
     type = "NodePort"  # Expose the service on a random port on the Minikube node
     port {
-      port        = 80  # Define the port within the cluster for your app (typically 80 for HTTP)
-      target_port = 80  # Map the service port to the container port where your app listens (usually 80)
+      port        = 3000  # Define the port within the cluster for your app (typically 80 for HTTP)
+      target_port = 3000  # Map the service port to the container port where your app listens (usually 80)
     }
   }
 }
