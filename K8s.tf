@@ -31,7 +31,7 @@ resource "kubernetes_deployment" "example" {
 
       spec {
         container {
-          image = "shehzadaslamoza/anipop-devops"
+          image = "mhassaanf/project-devops:latest"
           name  = "example"
 
           resources {
