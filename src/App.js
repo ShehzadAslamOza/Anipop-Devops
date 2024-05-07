@@ -9,6 +9,7 @@ import CompPage from "./CompPage/CompPage";
 import ScrollToTop from "./ScrollToTop";
 import ModulePage from "./ModulePageFinal/ModulePage";
 
+// This is the apppp
 function App() {
   return (
     <div className="App">
