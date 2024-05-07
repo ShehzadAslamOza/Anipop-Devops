@@ -81,7 +81,7 @@ resource "kubernetes_horizontal_pod_autoscaler" "example" {
 
     min_replicas = 1
     max_replicas = 5
-    metrics {
+    metric {
       type = "Resource"
       resource {
         name = "cpu"
